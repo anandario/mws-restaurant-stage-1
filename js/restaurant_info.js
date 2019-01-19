@@ -4,7 +4,7 @@ var newMap;
 /**
  * Initialize map as soon as the page is loaded.
  */
-document.addEventListener('DOMContentLoaded', (event) => {  
+document.addEventListener('DOMContentLoaded', (event) => {
   initMap();
 });
 
@@ -15,7 +15,7 @@ initMap = () => {
   fetchRestaurantFromURL((error, restaurant) => {
     if (error) { // Got an error!
       console.error(error);
-    } else {      
+    } else {
       self.newMap = L.map('map', {
         center: [restaurant.latlng.lat, restaurant.latlng.lng],
         zoom: 16,

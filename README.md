@@ -13,9 +13,9 @@
 
 ### What do I do from here?
 
-- :page_with_curl: Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
+:page_with_curl: Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
 
--  :memo: Write code to implement the updates to get this site on its way to being a mobile-ready website.
+:memo: Write code to implement the updates to get this site on its way to being a mobile-ready website.
 
 ## Leaflet.js and Mapbox:
 

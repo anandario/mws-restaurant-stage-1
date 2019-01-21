@@ -32,13 +32,17 @@
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
       <div class="pic">
+    <!-- Beginning breadcrumb -->
+    <nav role="navigation" aria-label="Breadcrumb">
         <ul id="breadcrumb">
           <li><a href="/">Home</a></li>
         </ul>
+      </nav>
+      <!-- End breadcrumb -->
         <img id="restaurant-img" tabindex="0">
       </div>
       <div class="hours">
-        <h1 id="restaurant-name" tabindex="0"></h1>
+        <h2 id="restaurant-name" tabindex="0"></h2>
         <p id="restaurant-cuisine" tabindex="0"></p>
         <p id="restaurant-address" tabindex="0"></p>
         <table id="restaurant-hours" tabindex="0"></table>
@@ -46,7 +50,7 @@
     </section>
     <!-- Beginning map -->
     <section id="map-container" tabindex="0">
-      <div id="map"></div>
+      <div id="map" aria-label="location" role="application"></div>
     </section>
     <!-- End map -->
     <!-- end restaurant -->

@@ -4,6 +4,7 @@
 
 const CACHE_NAME = 'mws-restaurant-review-static-v1';
 const urlsToCache = [
+    '/',
     'index.html',
     'restaurant.html',
     'js/dbhelper.js',
